@@ -17,6 +17,7 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 
+import tirabeauty from "@/public/assets/work/tirabeauty.png";
 import image1 from "@/public/assets/work/image.png";
 import image2 from "@/public/assets/work/image2.png";
 import solarEase from "@/public/assets/work/solarease.png";
@@ -33,6 +34,116 @@ import motionImage from "@/app/image/image.png";
 const projects = [
   {
     num: "01",
+    category: "Tira Beauty",
+    title: "Tira Beauty",
+    description:
+      "Tira Beauty is a responsive and user-friendly e-commerce website that allows users to browse beauty and cosmetic products with a smooth and modern interface. It focuses on clean design, easy navigation, and an optimized shopping experience across all devices.",
+    stack: [
+      { name: "HTML" },
+      { name: "CSS" },
+      { name: "Tailwind Css" },
+      { name: "JavaScript" },
+      { name: "Typescript" },
+      { name: "React JS" },
+      { name: "Next JS" },
+      { name: "Node JS" },
+      { name: "Express JS" },
+      { name: "Mongodb" },
+      { name: "Mongoose" },
+      { name: "Jwt" },
+      { name: "Zod" },
+    ],
+    image: tirabeauty,
+    live: "https://tirabeauty-alpha.vercel.app",
+    frontend_github:
+      "https://github.com/Amit-Biswas-WD/tirabeauty_frontend.git",
+    // backend_github: "https://github.com/Amit-Biswas-WD/tirabeauty_backend.git",
+  },
+
+  {
+    num: "02",
+    category: "Fishing Tripper",
+    title: "Fishing Tripper",
+    description:
+      "Built a responsive fishing trip booking and information site using Next.js and React featuring trip listings, contact/inquiry form, and a clean user‑friendly layout.",
+    stack: [
+      { name: "HTML" },
+      { name: "CSS" },
+      { name: "Tailwind Css" },
+      { name: "JavaScript" },
+      { name: "TypeScript" },
+      { name: "React JS" },
+      { name: "Next JS" },
+    ],
+    image: fishingtripper,
+    live: "https://fishingtripper.com",
+    frontend_github: "https://github.com/Amit-Biswas-WD/fishing_tripper",
+    backend_github: "",
+  },
+
+  {
+    num: "03",
+    category: "Havana City Cigar",
+    title: "Havana City Cigar",
+    description:
+      "Developed a responsive cigar e‑commerce platform featuring categorized product listings, shopping cart integration, and membership offerings for premium experiences. Built with a focus on showcasing diverse cigar collections and value‑added services.",
+    stack: [
+      { name: "HTML" },
+      { name: "CSS" },
+      { name: "Tailwind Css" },
+      { name: "JavaScript" },
+      { name: "React JS" },
+    ],
+    image: havanacitycigar,
+    live: "https://havanacitycigar.com",
+    frontend_github: "https://github.com/Amit-Biswas-WD/havanacitycigar_azoz",
+    backend_github: "",
+  },
+
+  {
+    num: "04",
+    category: "Troyable",
+    title: "Troyable",
+    description:
+      "Developed a modern landing page using Next.js and Framer Motion to deliver smooth animations and interactive UI. Featuring responsive layout, dynamic transitions, and showcase‑style design elements.",
+    stack: [
+      { name: "HTML" },
+      { name: "CSS" },
+      { name: "Tailwind Css" },
+      { name: "JavaScript" },
+      { name: "React JS" },
+      { name: "Next JS" },
+      { name: "Motion" },
+    ],
+    image: motionImage,
+    live: "https://troyable-motion.vercel.app",
+    frontend_github: "https://github.com/Amit-Biswas-WD/troyable_motion.git",
+    backend_github: "",
+  },
+
+  {
+    num: "05",
+    category: "Apple Gadgets",
+    title: "Apple Gadgets",
+    description:
+      "Developed a responsive e‑commerce product showcase website using Next.js featuring product categories, featured items, new arrivals, and brand sections. Designed with modern UI components and fully responsive layout.",
+    stack: [
+      { name: "HTML" },
+      { name: "CSS" },
+      { name: "Tailwind Css" },
+      { name: "JavaScript" },
+      { name: "React JS" },
+      { name: "Next JS" },
+    ],
+    image: image2,
+    live: "https://clent-side-apple-gadgets.vercel.app",
+    frontend_github:
+      "https://github.com/Amit-Biswas-WD/Clent_Side_Apple_Gadgets.git",
+    backend_github: "",
+  },
+
+  {
+    num: "06",
     category: "Brew Bite",
     title: "Brew Bite",
     description:
@@ -56,7 +167,7 @@ const projects = [
   },
 
   {
-    num: "02",
+    num: "07",
     category: "Harmony Suites",
     title: "Harmony Suites",
     description:
@@ -78,28 +189,7 @@ const projects = [
   },
 
   {
-    num: "03",
-    category: "Apple Gadgets",
-    title: "Apple Gadgets",
-    description:
-      "Developed a responsive e‑commerce product showcase website using Next.js featuring product categories, featured items, new arrivals, and brand sections. Designed with modern UI components and fully responsive layout.",
-    stack: [
-      { name: "HTML" },
-      { name: "CSS" },
-      { name: "Tailwind Css" },
-      { name: "JavaScript" },
-      { name: "React JS" },
-      { name: "Next JS" },
-    ],
-    image: image2,
-    live: "https://clent-side-apple-gadgets.vercel.app",
-    frontend_github:
-      "https://github.com/Amit-Biswas-WD/Clent_Side_Apple_Gadgets.git",
-    backend_github: "",
-  },
-
-  {
-    num: "04",
+    num: "08",
     category: "Solar Ease",
     title: "Solar Ease",
     description:
@@ -119,67 +209,7 @@ const projects = [
   },
 
   {
-    num: "05",
-    category: "Troyable",
-    title: "Troyable",
-    description:
-      "Developed a modern landing page using Next.js and Framer Motion to deliver smooth animations and interactive UI. Featuring responsive layout, dynamic transitions, and showcase‑style design elements.",
-    stack: [
-      { name: "HTML" },
-      { name: "CSS" },
-      { name: "Tailwind Css" },
-      { name: "JavaScript" },
-      { name: "React JS" },
-      { name: "Next JS" },
-      { name: "Motion" },
-    ],
-    image: motionImage,
-    live: "https://troyable-motion.vercel.app",
-    frontend_github: "https://github.com/Amit-Biswas-WD/troyable_motion.git",
-    backend_github: "",
-  },
-
-  {
-    num: "06",
-    category: "Fishing Tripper",
-    title: "Fishing Tripper",
-    description:
-      "Built a responsive fishing trip booking and information site using Next.js and React featuring trip listings, contact/inquiry form, and a clean user‑friendly layout.",
-    stack: [
-      { name: "HTML" },
-      { name: "CSS" },
-      { name: "Tailwind Css" },
-      { name: "JavaScript" },
-      { name: "React JS" },
-      { name: "Next JS" },
-    ],
-    image: fishingtripper,
-    live: "https://fishingtripper.com",
-    frontend_github: "https://github.com/Amit-Biswas-WD/fishing_tripper",
-    backend_github: "",
-  },
-
-  {
-    num: "07",
-    category: "Havana City Cigar",
-    title: "Havana City Cigar",
-    description:
-      "Developed a responsive cigar e‑commerce platform featuring categorized product listings, shopping cart integration, and membership offerings for premium experiences. Built with a focus on showcasing diverse cigar collections and value‑added services.",
-    stack: [
-      { name: "HTML" },
-      { name: "CSS" },
-      { name: "Tailwind Css" },
-      { name: "JavaScript" },
-      { name: "React JS" },
-    ],
-    image: havanacitycigar,
-    live: "https://havanacitycigar.com",
-    frontend_github: "https://github.com/Amit-Biswas-WD/havanacitycigar_azoz",
-    backend_github: "",
-  },
-
-  {
-    num: "08",
+    num: "09",
     category: "Folio Portfolio",
     title: "Folio Portfolio",
     description:
