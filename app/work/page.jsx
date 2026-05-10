@@ -25,6 +25,7 @@ import harMoney from "@/public/assets/work/harmoney.png";
 import fishingtripper from "@/public/assets/work/fishingtripper.png";
 import havanacitycigar from "@/public/assets/work/havanacitycigar.png";
 import protfolio from "@/public/assets/work/protfolio.png";
+import Assessment from "@/public/assets/work/assessment.png";
 import WorkSliderBtn from "@/components/WorkSliderBtn";
 import motionImage from "@/app/image/image.png";
 
@@ -123,6 +124,25 @@ const projects = [
 
   {
     num: "05",
+    category: "Dashboard ",
+    title: "Dashboard ",
+    description:
+      "This is a modern dashboard application that provides a clean and responsive interface for managing and displaying data efficiently. It focuses on user-friendly design and smooth data handling.",
+    stack: [
+      { name: "HTML" },
+      { name: "CSS" },
+      { name: "Tailwind Css" },
+      { name: "JavaScript" },
+      { name: "React JS" },
+    ],
+    image: Assessment,
+    live: "https://assessment-task-delta.vercel.app/dashboard",
+    frontend_github: "https://github.com/Amit-Biswas-WD/assessment_task.git",
+    backend_github: "",
+  },
+
+  {
+    num: "06",
     category: "Apple Gadgets",
     title: "Apple Gadgets",
     description:
@@ -143,7 +163,7 @@ const projects = [
   },
 
   {
-    num: "06",
+    num: "07",
     category: "Brew Bite",
     title: "Brew Bite",
     description:
@@ -167,7 +187,7 @@ const projects = [
   },
 
   {
-    num: "07",
+    num: "08",
     category: "Harmony Suites",
     title: "Harmony Suites",
     description:
@@ -189,7 +209,7 @@ const projects = [
   },
 
   {
-    num: "08",
+    num: "09",
     category: "Solar Ease",
     title: "Solar Ease",
     description:
@@ -209,7 +229,7 @@ const projects = [
   },
 
   {
-    num: "09",
+    num: "10",
     category: "Folio Portfolio",
     title: "Folio Portfolio",
     description:
